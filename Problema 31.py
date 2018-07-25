@@ -11,9 +11,6 @@ Total = int(input('Ingrese la cantidad de dinero que tiene : '))
 draw = int(input('Ingrese la cantidad de dinero que desea retirar : '))
 
 class MyAccount:
-    def __str__(self):
-        print('Bienvenido al cajero de fernando')
-
     def __init__(self,balance, retiro):
         self.balance = balance
         self.retiro = retiro
