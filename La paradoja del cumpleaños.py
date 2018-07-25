@@ -1,4 +1,4 @@
-import random  # Importamos la libreria random
+import random 
 
 def generar_cumpleaños(): 
     mes = random.randint(1, 12)  
